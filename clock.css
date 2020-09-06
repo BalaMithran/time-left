@@ -1,0 +1,26 @@
+:root {
+    --mouse-x: 80%;
+    --mouse-y: 20%;
+  }
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.parent{
+    height: 100vh;
+    border: 20px solid black;
+}
+
+.child1{
+    width: 100%;
+    height:var(--mouse-x);
+    background: blueviolet;
+}
+
+.child2{
+    width: 100%;
+    height:var(--mouse-y);
+    background:red;
+}
